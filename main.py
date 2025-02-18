@@ -1,12 +1,17 @@
 import requests
 import tkinter as tk
 from tkinter import messagebox
+from random import *
 
 # GitHub에서 파일을 불러오기
 url = 'https://raw.githubusercontent.com/wwwdsda/mad-libs-project/refs/heads/main/story/story1.txt'
-response = requests.get(url)
-csv_data = response.text
+url2 = 'https://raw.githubusercontent.com/wwwdsda/mad-libs-project/refs/heads/main/story/story2.txt'
+url3 = 'https://raw.githubusercontent.com/wwwdsda/mad-libs-project/refs/heads/main/story/story3.txt'
 
+urls = [url,url2,url3]
+random_url = urls[randint(0,2)]
+storytext = requests.get(random_url)
+csv_data = storytext.text
 
 # 빈칸을 처리하는 함수
 def fill_in_blanks():
