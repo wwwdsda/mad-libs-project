@@ -1,6 +1,6 @@
 Red,{adjective} apples! Today we are going to {verb} apples. 
 I am going to {verb} the most. 
-My (person) and I are having an {fruit} picking contest this year.
+My {person} and I are having an {fruit} picking contest this year.
 Every {season} we go to {person's} farm to pick a {noun} of apples.
 This year {person} wants to make {noun}, so we need alot.
 When we arrive {place}, {person} counts out our apples.
